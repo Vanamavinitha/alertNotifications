@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+}
+@media screen and (min-width: 768px) {
+  .responsive {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+.heading {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.message {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .message {
+    margin-top: 0px;
+  }
+}
+.message-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .message-heading {
+    font-size: 24px;
+  }
+}
+.description {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+.icon {
+  margin-right: 14px;
+  height: 70px;
+  min-width: 30px;
+}
